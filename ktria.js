@@ -1,0 +1,5 @@
+const { Client, MessageAttachment, MessageCollector, MessageEmbed } = require("discord.js")
+const client = new Client()
+const { Bot, Guild, Ekip } = require("./maveraktria.json") 
+const buttons = require("discord-buttons")
+buttons(client)
