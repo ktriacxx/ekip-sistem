@@ -19,8 +19,8 @@ client.on("message", async msg => {
 
     if(cmds == "ekip" || cmds == "team" || cmds == "ekipbak") {
         let embed = new MessageEmbed().setFooter(Bot.Footer).setTimestamp().setColor("RANDOM").setAuthor(msg.guild.name, msg.guild.iconURL({ dynamic: true, size: 2048 })).setThumbnail(msg.guild.iconURL({ dynamic: true, size: 2048 }))
-        let yesEmoji = msg.guild.emojis.cache.find(x => x.name == "tevfik_onay")
-        let noEmoji = msg.guild.emojis.cache.find(x => x.name == "tevfik_red")
+        let yesEmoji = msg.guild.emojis.cache.find(x => x.name == "ktriatik")
+        let noEmoji = msg.guild.emojis.cache.find(x => x.name == "ktriared")
         let voice1 = parseInt(msg.guild.members.cache.filter(x => x.roles.cache.has(Ekip.Ekip1) && x.voice.channel).size / msg.guild.members.cache.filter(r => r.roles.cache.has(Ekip.Ekip1)).size * 100)
         let voice2 = parseInt(msg.guild.members.cache.filter(x => x.roles.cache.has(Ekip.Ekip2) && x.voice.channel).size / msg.guild.members.cache.filter(r => r.roles.cache.has(Ekip.Ekip2)).size * 100)
         let voice3 = parseInt(msg.guild.members.cache.filter(x => x.roles.cache.has(Ekip.Ekip3) && x.voice.channel).size / msg.guild.members.cache.filter(r => r.roles.cache.has(Ekip.Ekip3)).size * 100)
