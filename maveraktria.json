@@ -1,0 +1,28 @@
+{
+    "Bot": {
+        "Token": "",
+        "Footer": "Ktria ❤️ Mavera",
+        "Ready": "Ktria ❤️ Mavera",
+        "Prefix": "!",
+        "Developer": ["482541644944506880"]
+    },
+    
+    "Guild": {
+        "Tag": "",
+        "CommandHammer": ""
+    },
+
+    "Ekip": {
+        "Ekip1": "",
+        "Ekip2": "",
+        "Ekip3": "",
+        "Ekip4": "",
+
+        "İsim": {
+            "Ekip1": "",
+            "Ekip2": "",
+            "Ekip3": "",
+            "Ekip4": ""
+        }
+    }
+}
